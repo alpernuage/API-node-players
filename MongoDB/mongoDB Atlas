@@ -1,0 +1,5 @@
+mongodb+srv://userMongo:<password>@cluster0-3zjdp.mongodb.net/test?retryWrites=true&w=majority
+
+username: userName
+password: userName
+nom de databas: basket_db

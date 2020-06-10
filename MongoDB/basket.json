@@ -1,0 +1,53 @@
+[{
+        "team": "Seattle Supersonics",
+        "jerseyNumber": 40,
+        "previousTeams": [
+            "Chicago Bulls",
+            "Miami Heat",
+            "New York Knicks"
+        ],
+        "age": 30,
+        "birthPlace": {
+            "country": "Spain"
+        }
+    },
+    {
+        "team": "Chicago Bulls",
+        "jerseyNumber": 28,
+        "previousTeams": [
+            "Seattle Supersonics",
+            "Miami Heat",
+            "New York Knicks"
+        ],
+        "age": 25,
+        "birthPlace": {
+            "country": "France"
+        }
+    },
+    {
+        "team": "Seattle Supersonics",
+        "jerseyNumber": 10,
+        "previousTeams": [
+            "Chicago Bulls",
+            "Miami Heat",
+            "New York Knicks"
+        ],
+        "age": 32,
+        "birthPlace": {
+            "country": "Argentine"
+        }
+    },
+    {
+        "team": "Chicago Bulls",
+        "jerseyNumber": 42,
+        "previousTeams": [
+            "Seattle Supersonics",
+            "Miami Heat",
+            "New York Knicks"
+        ],
+        "age": 28,
+        "birthPlace": {
+            "country": "Spain"
+        }
+    }
+]

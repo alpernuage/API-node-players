@@ -1,0 +1,182 @@
+[
+  {
+    "age": 24,
+    "names": ["Alison", "Jenkins"],
+    "isActive": false,
+    "team": "Warriors",
+    "jesreyNumber": 8,
+    "previousTeams": ["Hornets", "Nuggets", "Suns"],
+    "birthPlace": {
+      "country": "Brazil",
+      "city": "Beason"
+    }
+  },
+  {
+    "age": 22,
+    "names": ["Charity", "Joyner"],
+    "isActive": false,
+    "team": "Celtics",
+    "jesreyNumber": 36,
+    "previousTeams": ["Heat", "Warriors", "Bulls"],
+    "birthPlace": {
+      "country": "Kenya",
+      "city": "Succasunna"
+    }
+  },
+  {
+    "age": 22,
+    "names": ["Cortez", "Glover"],
+    "isActive": false,
+    "team": "Lakers",
+    "jesreyNumber": 83,
+    "previousTeams": ["Rockets", "Warriors", "Hornets"],
+    "birthPlace": {
+      "country": "Cambodia",
+      "city": "Lutsen"
+    }
+  },
+  {
+    "age": 28,
+    "names": ["Deana", "Yang"],
+    "isActive": false,
+    "team": "Bulls",
+    "jesreyNumber": 70,
+    "previousTeams": ["Spurs", "Raptors", "Celtics"],
+    "birthPlace": {
+      "country": "Yugoslavia",
+      "city": "Fairacres"
+    }
+  },
+  {
+    "age": 32,
+    "names": ["Robertson", "Fisher"],
+    "isActive": true,
+    "team": "Raptors",
+    "jesreyNumber": 74,
+    "previousTeams": ["Pistons", "Cavs", "Warriors"],
+    "birthPlace": {
+      "country": "Rockbridge",
+      "city": "Venezuela"
+    }
+  },
+  {
+    "age": 23,
+    "names": ["Daugherty", "Wiggins"],
+    "isActive": true,
+    "team": "Bulls",
+    "jesreyNumber": 93,
+    "previousTeams": ["Cavs", "Lakers", "Hornets"],
+    "birthPlace": {
+      "country": "French Polynesia",
+      "city": "Twilight"
+    }
+  },
+  {
+    "age": 25,
+    "names": ["Erica", "Diaz"],
+    "isActive": true,
+    "team": "76ers",
+    "jesreyNumber": 99,
+    "previousTeams": ["Celtics", "Spurs", "Knicks"],
+    "birthPlace": {
+      "country": "Greenland",
+      "city": "Gracey"
+    }
+  },
+  {
+    "age": 23,
+    "names": ["Courtney", "Glass"],
+    "isActive": false,
+    "team": "76ers",
+    "jesreyNumber": 82,
+    "previousTeams": ["Warriors", "Hornets", "Cavs"],
+    "birthPlace": {
+      "country": "Finland",
+      "city": "Helsinki"
+    }
+  },
+  {
+    "age": 18,
+    "names": ["Carmella", "Gilmore"],
+    "isActive": true,
+    "team": "Bulls",
+    "jesreyNumber": 39,
+    "previousTeams": ["Celtics", "Hawks", "Lakers"],
+    "birthPlace": {
+      "country": "Argentina",
+      "city": "Fresno"
+    }
+  },
+  {
+    "age": 29,
+    "names": ["Elsie", "Fields"],
+    "isActive": false,
+    "team": "Rockets",
+    "jesreyNumber": 49,
+    "previousTeams": ["Nuggets", "Bucks", "Bulls"],
+    "birthPlace": {
+      "country": "Phillippine",
+      "city": "Cazadero"
+    }
+  },
+  {
+    "age": 22,
+    "names": ["Lucas", "Pickett"],
+    "isActive": true,
+    "team": "Hawks",
+    "jesreyNumber": 51,
+    "previousTeams": ["Raptors", "Hornets", "76ers"],
+    "birthPlace": {
+      "country": "Slovenia",
+      "city": "Annaba"
+    }
+  },
+  {
+    "age": 19,
+    "names": ["Marilyn", "Winters"],
+    "isActive": true,
+    "team": "Nuggets",
+    "jesreyNumber": 24,
+    "previousTeams": ["Lakers", "Pistons", "Warriors"],
+    "birthPlace": {
+      "country": "Panama",
+      "city": "Brownsville"
+    }
+  },
+  {
+    "age": 26,
+    "names": ["Hendricks", "Benton"],
+    "isActive": false,
+    "team": "Bulls",
+    "jesreyNumber": 33,
+    "previousTeams": ["Hornets", "Celtics", "Rockets"],
+    "birthPlace": {
+      "country": "Netherlands",
+      "city": "Ritchford"
+    }
+  },
+  {
+    "age": 21,
+    "names": ["Ware", "Russell"],
+    "isActive": true,
+    "team": "Bucks",
+    "jesreyNumber": 20,
+    "previousTeams": ["Lakers", "76ers", "Celtics"],
+    "birthPlace": {
+      "country": "Malawi",
+      "city": "Rivers"
+    }
+  },
+  {
+    "age": 30,
+    "names": ["Odessa", "Jefferson"],
+    "isActive": true,
+    "team": "Hawks",
+    "jesreyNumber": 33,
+    "previousTeams": ["Bucks", "Heat", "Lakers"],
+    "birthPlace": {
+      "country": "United States",
+      "city": "Vincent"
+    }
+  }
+]

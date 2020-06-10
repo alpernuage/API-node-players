@@ -1,0 +1,87 @@
+use twisted_db
+db.createCollection(“users")
+use crooked_db
+db.collections(“users")
+show databases
+use fake_db
+db.fake_users
+db.fake_customers
+use crooked_db
+show collections
+db.users.insert({name:"Jack",age:22})
+db.users.insert({name:"Mick", ville :"Chicago", age:64})
+mongoimport --db dbName --collection --collectionName --file fileName.json --jsonArray //commande pour importer un fichier existant
+mongoimport --db crooked_db --collection album --file /home/nuage/Bureau/0-PN/MONGODB/album.json --jsonArray
+use twisted_db
+db.createCollection("magic_users")
+db.magic_users.insert({name:"Johnson"})
+db.magic_users.find()
+db.createCollection("magic_products")
+db.magic_products.insert([{product:"Crazy wine"},{product:"Weird shoes"}])
+db.magic_products.find()
+db.magic_products.findOne()
+db.magic_products.remove({name:"Crazy wine"},{product:"Weird shoes"})
+db.magic_products.insert({product:"Weird shoes"})
+db.magic_users.remove({name:"Crazy wine"},{name:"Weird shoes"})
+db.magic_users.remove({name:"Weird shoes"})
+db.magic_products.find().pretty
+db.magic_products.find().pretty()
+db.magic_users.find({"name":"Johnson"})
+db.crooked_db.find({"year":1967})
+db.crooked_db.find({"year","title"})
+db.magic_products.insert([{on_sale:true},{price:100}])
+db.magic_products.find({"on_sale":true,"price":100})
+use artists_db
+db.createCollection("bands")
+
+db.bands.insertMany([{"_id" : ObjectId("5cebdd20953b7f098ac9c129"),
+    "members" : ["Jimmy", "Eleni"]},{"_id" : ObjectId("5cebdd20953b7f098ac9c130"),"members" : ["Eleni", "Christine"]},
+    {"_id" : ObjectId("5cebdd20953b7f098ac9c131"),"members" : ["Lil Random", "HHH", "Doll"]}])
+
+db.bands.find({members:"Eleni})
+
+sudo systemctl start mongod
+mongo
+db.bands.find({"members":{$in:["Jimmy","Doll"]}})
+db.bands.find({"creation_date":{$lt:2010}})
+
+db.bands.remove([{"_id" : ObjectId("5cebdd20953b7f098ac9c129"),
+    "members" : ["Jimmy", "Eleni"]},{"_id" : ObjectId("5cebdd20953b7f098ac9c130"),"members" : ["Eleni", "Christine"]},
+    {"_id" : ObjectId("5cebdd20953b7f098ac9c131"),"members" : ["Lil Random", "HHH", "Doll"]}])
+
+db.bands.remove([{ "_id" : ObjectId("5cebdd20953b7f098ac9c129"), "members" : [ "Jimmy", "Eleni" ] }
+{ "_id" : ObjectId("5cebdd20953b7f098ac9c130"), "members" : [ "Eleni", "Christine" ] }
+{ "_id" : ObjectId("5cebdd20953b7f098ac9c131"), "members" : [ "Lil Random", "HHH", "Doll" ] }
+])
+
+db.bands.insert([
+    {"_id": ObjectId("5cebdd20953b7f098ac9c129"),"members": ["Jimmy", "Eleni"],"creation_date": 2014,"adress" : {      "country" : "France","city" : "Grenoble"}
+},
+{"_id" : ObjectId("5cebdd20953b7f098ac9c130"),"members" : ["Eleni", "Christine"],"creation_date": 2008,"adress" : {"country" : "Portugal","city" : "Coimbra"
+},
+{"_id" : ObjectId("5cebdd20953b7f098ac9c131"),"members" : ["Lil Random", "HHH", "Doll"],"creation_date": 2019,"adress" : {
+ "country" : "USA","city" : "Chicago" }
+}]
+)
+
+db.bands.find({"creation_date":{$gt:2010},"adress.city" : "Coimbra"})
+
+db.createCollection("players")
+db.players.insert([
+    {"_id": ObjectId("5cebdd20953b7f098ac9c129"),"members": ["Jimmy", "Eleni"],"creation_date": 2014,"adress" : {      "country" : "France","city" : "Grenoble"}
+},
+{"_id" : ObjectId("5cebdd20953b7f098ac9c130"),"members" : ["Eleni", "Christine"],"creation_date": 2008,"adress" : {"country" : "Portugal","city" : "Coimbra"
+},
+{"_id" : ObjectId("5cebdd20953b7f098ac9c131"),"members" : ["Lil Random", "HHH", "Doll"],"creation_date": 2019,"adress" : {
+ "country" : "USA","city" : "Chicago" }
+}]
+)
+
+ex-15 db.players.find("team":"Seattle Supersonics")
+ex-16 db.players.find("jerseyNumber":40)
+ex-17 db.players.find({"previousTeams":"Chicago Bulls"})
+ex-18 db.players.find({"previousTeams":{$in:["previousTams":"Chicago Bulls","Miami Heat"]}})
+ex-19 db.players.find({"previousTeams":{$in:["previousTams":"Orlando Magic","Miami Heat"]}})
+ex-20 db.players.find({"age":{$gt:30}})
+ex-21 db.players.find("birthPlace.country":"Spain")
+
